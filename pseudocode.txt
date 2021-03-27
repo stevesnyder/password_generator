@@ -1,0 +1,54 @@
+Javascript
+    
+    Front-end Interface:
+
+        >When button is clicked, an alert box will drop down on the top of screen.
+    
+            Within alert box:
+
+            -User is prompted password length between 8 and 129 characters.
+
+            -User is asked to confirm 4 different character types to be included in password.
+    
+        >Once all questions are answered and alert box closes, a password that fits preferences is displayed on the page.
+
+    Back-end mechanics:
+
+        >variables declared and assigned a value
+        
+        >arrays containing different accepted characters
+        
+        >function to generate a password
+            
+            -declare variable for password length
+            
+            -open an alert box
+                
+                -prompt user for length of password
+                -prompt user for character types
+                    ~special characters
+                    ~numeric characters
+                    ~lowercase characters
+                    ~uppercase character
+                
+            -generate password
+
+                -declare variable with a value of an empty array.
+                -declare variable for generated password.
+                -conditional statements to ensure all desired characters are included in password and add all desired characters to empty array.
+                -loop that runs x times, x being desired length of password.
+
+                    -each time loop runs
+                        ~select a random character from desired character array.
+                        ~add the character to generated password variable.
+
+                return generated password value.
+                    
+
+
+
+
+
+
+
+    
